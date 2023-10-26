@@ -1,0 +1,13 @@
+i = 0
+
+sum = 0
+
+while sum < 5:
+
+    num1 = int(input(f"Enter integer {sum + 1}:"))
+
+    i += num1
+
+    sum += 1
+
+print(f"The sum of the 5 integer:", i)
