@@ -1,0 +1,9 @@
+count = 1
+
+user = int(input(f"Enter a num:"))
+
+while count <= user:
+
+    print(count)
+
+    count += 1
