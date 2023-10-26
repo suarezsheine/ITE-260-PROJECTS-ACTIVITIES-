@@ -1,0 +1,11 @@
+count = 0
+
+msg = input("Enter your message:")
+
+times = int(input("times message will be printed:"))
+
+while count < times:
+
+    print(msg)
+
+    count += 1
