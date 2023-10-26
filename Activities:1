@@ -1,0 +1,7 @@
+carsbrand = ["toyota", "mazda", "lambo", "suzuki", "tesla"]
+
+carsbrand.append ("bmw")
+
+del carsbrand [2]
+
+print(carsbrand)
