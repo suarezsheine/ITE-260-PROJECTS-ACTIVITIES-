@@ -1,0 +1,19 @@
+Pseudocode:
+
+PROMPT An integer Limit two integers: Number and Sum
+
+Enter Limit
+
+DISPLAY “Set Number = 0.”
+
+DISPLAY “Set Sum = 0.”
+
+IF Sum >Limit, terminate the repetition, otherwise.
+
+IncrementNumber by one.
+
+AddNumber to Sum and set equal to Sum.
+
+Print Number and Sum.
+
+ENDIF
