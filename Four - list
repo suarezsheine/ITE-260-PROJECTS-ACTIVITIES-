@@ -1,0 +1,5 @@
+fruittype = ["apple", "orange", "mango", "papaya", "banana"]
+
+fruittype[4] = "watermelon"
+
+print(fruittype)
