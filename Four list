@@ -1,0 +1,9 @@
+motorbrands = ["bmw", "ducati", "honda", "suzuki", "kawasaki"]
+
+motorbrands.insert (3, "bmw")
+
+print(motorbrands)
+
+del motorbrands [5]
+
+print(motorbrands)
