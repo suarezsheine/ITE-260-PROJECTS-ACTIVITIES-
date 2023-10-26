@@ -1,0 +1,15 @@
+secretword = "secret"
+
+guessword = " "
+
+while guessword != secretword:
+
+    guessword = input("Guess the word:")
+
+    if guessword != secretword:
+
+       print("Try again")
+
+    else:
+
+       print("You did it!")
