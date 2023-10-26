@@ -1,0 +1,13 @@
+studentName = input("Enter your name:")
+
+sub1 = int(input("Enter p.e grade:"))
+
+sub2 = int(input("Enter GEN001 grade:"))
+
+sub3 = int(input("Enter ITE366:"))
+
+sub4 = int(input("Enter GEN006:"))
+
+AVG = ( sub1 + sub2 + sub3 + sub4)/4
+
+print(float(AVG), studentName)
