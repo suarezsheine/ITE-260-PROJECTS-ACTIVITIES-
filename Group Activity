@@ -1,0 +1,209 @@
+# GROUP 3 CODE:
+
+# MEMBERS: AGUITONG, SOHON, SUAREZ
+
+
+
+un = "group3"
+
+userpass = "g3"
+
+
+
+
+
+count = 0
+
+while count < 5:
+
+    username = input("Enter username: ")
+
+    password = input("Enter password: ")
+
+    if username == un and password == userpass:
+
+        print("login")
+
+        print("")
+
+        print("Group 3 :)")
+
+        print("1-10: Identification. 11-20: True or False. 21-30: Multiple Choice. \nAnswer should be in capital letters.\n")
+
+
+
+
+
+        sas11 = {"1. A enables a particular set of conditions to be executed repeatedly until a condition is satisfied." : "FOR LOOP",
+
+                     "2. There is a function called that either take a single number and behaves like a list of numbers going from zero." : "RANGE",
+
+                     "3. An alternative way of through each item is by index offset into the sequence itself." : "ITERATING",
+
+                     "4. Generates a set of whole numbers starting from 0 to (n-1)." : "RANGE (N)",
+
+                     "5. Generates a set of whole numbers starting from start to stop-1." : "RANGE (START,STOP)",
+
+                     "6. Python programming language allows using one loop inside another loop." : "NESTED LOOP",
+
+                     "7. What is the output of the code:\nfor i in range(3):\n   print('HELLO')\n    print('GOODBYE')" : "HELLO\nHELLO\nHELLO\nGOODBYE",
+
+                     "8. What is the output of the code:\nrow = 5\nfor i in range(1, row + 1, 1):\n  for j in range(1, i + 1):\n     print('*', end=' ')\n   print('')" : "*\n**\n***\n****\n*****",
+
+                     "9. What is the output of the code:\nfor v in range (5):\n  for h in range(5):\n        print('*', end = ' ')\n print()" : "*****\n*****\n*****\n*****\n*****",
+
+                     "10. What is the output of the code:\ncolor = ['black','white','gray']\nfor index in range(len(color)):\n   print(colr[index])" : "BLACK\nWHITE\nGRAY"}
+
+        sas12 = {"11. The break statement is used inside the loop to exit out of the loop." : "TRUE",
+
+                     "12. Control statements in a loop alter the execution sequence." : "TRUE",
+
+                     "13. The control statement allows you to bypass the current iteration of any loop." : "FALSE",
+
+                     "14. In Python, the pass statement is considered a no-operation statement, which means it consumes the execution cycle like a valid Python statement, but nothing happens actually when pass is executed." : "TRUE",
+
+                     "15. The pass statement is similar to a comment, but the Python interpreter treats the pass statements as valid Python statements while completely ignoring the comment statement." : "TRUE",
+
+                     "16. Control will exit only the innermost loop containing it." : "FALSE",
+
+                     "17. When execution exits a scope, all automatic objects created in that scope are destroyed." : "TRUE",
+
+                     "18. Whenever the controller encountered a control statement, it comes out of that loop immediately." : "FALSE",
+
+                     "19. When a pass statement is encountered in the loop, the Python interpreter ignores the rest of the loop body statements for the current iteration and returns program execution to the very first statement in the loop body." : "FALSE",
+
+                     "20. The pass statement is much like a comment, but the Python interpreter executes the pass statements like valid python statements while it ignores the comment statement completely." : "TRUE"}
+
+        sas13 = {"21. a or b and c means \na.) a or (b and c) \nb.) (a and b) or (c and d) \nc.) ((a and b) and c) or d \nd.) ((not a) and b) or c" : "A",
+
+                     "22. a and b or c and d means \na.) a or (b or c) \nb.) (a and b) or (c and d) \nc.)((a and b) and c) or d \nd.) ((not a) and b) or c" : "B",
+
+                     "23. a and b and c or d means \na.) a or (b and c) \nb.) (a and b) or (c and d) \nc.) ((a and b) and c) or d \nd.) ((not a) amd b) or c" : "C",
+
+                     "24. not a and b or c means \na.) a or (b or c) \nb.) (a and b) or (c and d) \nc.)((a and b) and c) or d \nd.) ((not a) amd b) or c" : "D",
+
+                     "25. What precedence of operator NOT? \na.) high \nb.) medium \nc.) low \nd.) down" : "A",
+
+                     "26. What precedence of operator AND? \na.) high \nb.) medium \nc.) low \nd.) down" : "B",
+
+                     "27. What precedence of operator OR? \na.) high \nb.) medium \nc.) low \nd.) down" : "C",
+
+                     "28. What syntax of operator AND? \na.) x and y \nb.) x or y \nc.) not x \nd.) none of the above" : "A",
+
+                     "29. What syntax of operator OR? \na.) x and y \nb.) x or y \nc.) not x \nd.) none of the above" : "B",
+
+                     "30. What syntax of operator NOT? \na.) x and y \nb.) x or y \nc.) not x \nd.) none of the above" : "C"}
+
+
+
+
+
+        sas11_score = 0
+
+        sas12_score = 0
+
+        sas13_score = 0
+
+
+
+        print("MODULE 11")
+
+        for x in sas11:
+
+            answer1 = sas11[x]
+
+            print(x)
+
+            answer = input("Please type your answer: ")
+
+            if (answer == answer1):
+
+                sas11_score += 1
+
+        print("")
+
+        print("TOTAL SCORE: " +str(sas11_score)+ "/10")
+
+
+
+        print("\nMODULE 12")
+
+        for y in sas12:
+
+            answer1 = sas12[y]
+
+            print(y)
+
+            answer = input("Please type your answer: ")
+
+            if (answer == answer1):
+
+                sas12_score += 1
+
+        print("")
+
+        print("TOTAL SCORE: " +str(sas12_score)+ "/10")
+
+
+
+        print("\nMODULE 13")
+
+        for z in sas13:
+
+            answer1 = sas13[z]
+
+            print(z)
+
+            answer = input("Please type your answer: ")
+
+            if (answer == answer1):
+
+                sas13_score += 1
+
+        print("")
+
+        print("TOTAL SCORE:" +str(sas13_score)+ "/10")
+
+
+
+        total = (sas11_score + sas12_score + sas13_score) / 3
+
+
+
+        print("OVERALL SCORE:" +str(total)+ "/30")
+
+
+
+        if total == 30:
+
+            print("Perfect Score. PASS")
+
+        elif total >= 21 and total <=29:
+
+            print("Very Good. PASS")
+
+        elif total >= 16 and total <= 20:
+
+            print("Great Score. PASS")
+
+        elif total >= 10 and total <= 15:
+
+            print("PASS")
+
+        elif total < 10:
+
+            print("FAIL")
+
+        break
+
+    else:
+
+        print("Invalid credentials")
+
+        count += 1
+
+        if count >= 5:
+
+            print("No more attempts left.")
+
+            break
