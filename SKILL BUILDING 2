@@ -1,0 +1,91 @@
+CODE:
+
+user_number = float(input("User number:"))
+
+if user_number > 0:
+
+    print("POSITIVE")
+
+else:
+
+    print("NEGATIVE")
+
+OUTPUT:
+
+User number:18
+
+POSITIVE
+
+CODE:
+
+name = input("Name:")
+
+sub1 = float(input("P.E GRADE:"))
+
+sub2 = float(input("GEN 002 GRADE:"))
+
+sub3 = float(input("GEN 001 GRADE:"))
+
+sub4 = float(input("GEN 006 GRADE:"))
+
+sub5 = float(input("ITE 260 GRADE:"))
+
+avg = (sub1 + sub2 + sub3 + sub4 + sub5)/5
+
+if avg > 85:
+
+   print(name, "average:", avg, "with highest honor")
+
+elif avr >= 80:
+
+   print(name, "average:", avg, "higher with honor")
+
+elif avg >= 75:
+
+   print(name, "average:", avg, "pass")
+
+else:
+
+     print(name, "average:", avg, "fail")
+
+OUTPUT:
+
+Name:Sheine
+
+P.E GRADE:95
+
+GEN 002 GRADE:94
+
+GEN 001 GRADE:96
+
+GEN 006 GRADE:97
+
+ITE 260 GRADE:98
+
+Sheine average: 96.0 with highest honor
+
+CODE:
+
+jss_username = "love"
+
+jss_password = "143"
+
+username = input("Enter username:")
+
+password = input("Enter password:")
+
+if jss_username == username and jss_password == password:
+
+  print("log in")
+
+else:
+
+    print("invalid")
+
+OUTPUT:
+
+Enter username: love
+
+Enter password: 143
+
+log in
