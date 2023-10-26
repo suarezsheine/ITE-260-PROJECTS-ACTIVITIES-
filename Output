@@ -1,0 +1,9 @@
+OUTPUT:
+
+Value of (a + b) * c / d is  91.2
+
+Value of ((a + b) * c) / d is  91.2
+
+Value of (a + b) * (c / d) is  91.2
+
+Value of a + (b * c) / d is  53.4
