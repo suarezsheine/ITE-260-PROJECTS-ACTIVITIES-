@@ -1,0 +1,106 @@
+A.CODE EVALUATION:
+
+
+
+OUTPUT
+
+
+
+1.) 3
+
+2.) PYTHON
+
+3.) 5
+
+
+
+B.CODING TIME:
+
+
+
+first_name = input("Enter employee's first name: ")
+
+last_name = input("Enter employee's last name: ")
+
+salary = float(input("Enter employee's annual salary: "))
+
+rating = int(input("Enter employee's performance rating (1-4): "))
+
+
+
+if rating == 1:
+
+    bonus_percentage = 10
+
+elif rating == 2:
+
+    bonus_percentage = 6
+
+elif rating == 3:
+
+    bonus_percentage = 3
+
+elif rating == 4:
+
+    bonus_percentage = 0
+
+else:
+
+    print("Invalid performance rating entered.")
+
+    bonus_percentage = 0
+
+
+
+bonus = float(bonus_percentage / rating) * salary
+
+
+
+if bonus_percentage > 0:
+
+    print(f"{first_name} {last_name} is eligible for a bonus of ${bonus:.2f}")
+
+else:
+
+    print(f"{first_name} {last_name} is not eligible for a bonus.")
+
+
+
+OUTPUT:
+
+
+
+Enter employee's first name: jenny
+
+Enter employee's last name: suarez
+
+
+Enter employee's annual salary: 500
+
+
+Enter employee's performance rating (1-4): 1
+
+
+jenny suarez is eligible for a bonus of $5000.00
+
+
+
+B.ACTIVITY 3: CHECK FOR UNDERSTANDING:
+
+
+
+ANSWER:
+
+
+
+1.) if x == y and z == a:
+ print("Python")
+
+2.) if x == y or z == a:
+ print("Python")
+
+3.) one is equal to one
+
+4.) : , yes
+
+5.) one is equal to one!
