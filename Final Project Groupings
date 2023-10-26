@@ -1,0 +1,50 @@
+while True:
+    name = input('Enter your name: ')
+    gender = input('Enter your gender (male or female): ').lower()
+    height = float(input('Enter height in cm: '))
+    weight = float(input('Enter weight in kg: '))
+
+    def BMI(height, weight, gender):
+        bmi = weight / (height / 100) ** 2
+        if gender == 'male':
+            if bmi < 18.5:
+                return 'Underweight', bmi
+            elif 18.5 <= bmi < 25:
+                return 'Normal weight', bmi
+            elif 25 <= bmi < 30:
+                return 'Overweight', bmi
+            elif bmi >= 30:
+                return 'Obesity', bmi
+        elif gender == 'female':
+            if bmi < 18.5:
+                return 'Underweight', bmi
+            elif 18.5 <= bmi < 25:
+                return 'Normal weight', bmi
+            elif 25 <= bmi < 30:
+                return 'Overweight', bmi
+            elif bmi >= 30:
+                return 'Obesity', bmi
+            pass
+        else:
+                return 'Invalid gender', None
+
+    quote, bmi = BMI(height, weight, gender)
+
+    if quote is None:
+        print('Invalid gender entered.')
+    else:
+        print('Hello, {}!'.format(name))
+        print('Your BMI is: {:.2f} and you are: {}'.format(bmi, quote))
+        print('')
+    user=input("Enter Y to repeat, enter N to exit program: ")
+    if user == 'Y' or user =='n':
+        print()
+    elif user == 'N' or user =='n':
+        print('')
+        print("Thank you, stay healthy!")
+        print()
+        break
+    else:
+        print('Invalid input, please rerun the code')
+        print()
+        break
