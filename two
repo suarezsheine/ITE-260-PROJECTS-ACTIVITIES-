@@ -1,0 +1,13 @@
+fullName = input("Enter your fullName:")
+
+lastName = input("Enter your lastName:")
+
+gender = input("Enter your gender:")
+
+phoneNumber =input("Enter your phoneNumber:")
+
+location = input("Enter your location:")
+
+put = (fullName + " " + lastName +" " + gender +" " + phoneNumber +" " + location + " ")
+
+print(put)
