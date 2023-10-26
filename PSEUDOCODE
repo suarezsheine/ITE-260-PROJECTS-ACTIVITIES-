@@ -1,0 +1,37 @@
+Pseudocode:
+
+To check positive or negative number
+
+PROMPT for positive or negative
+
+GET the n for positive result
+
+IF n is greater than zero
+
+DISPLAY “Print positive”
+
+ELSE
+
+DISPLAY “Print negative”
+
+END IF
+
+To check odd or even number
+
+PROMPT for check odd or even number
+
+GET the odd or even number
+
+IF n percent 2 equals zero
+
+DISPLAY
+
+Print “number is even”
+
+ELSE
+
+DISPLAY
+
+Print “number is odd”
+
+END IF
