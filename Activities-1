@@ -1,0 +1,7 @@
+no1 = int(input("Enter your no1:"))
+
+no2 = int(input("Enter your no2:"))
+
+sum = no1 + no2
+
+print(f"{no1} + {no2} = {sum}")
