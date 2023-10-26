@@ -1,0 +1,5 @@
+animals = ["dog", "cat", "frog", "butterfly", "bird"]
+
+animals.remove ("frog")
+
+print(animals)
